@@ -24,5 +24,5 @@ def get_current_time():
 
 
 def shorten_url(url):
-    site_url = f"https://tnshort.net/api?api=f12bdd3c5c118fdc7ab6dd26bbf360968923f379&url={url}&format=text"
+    site_url = f"https://paisakamalo.in/api?api=e4bcc454e188b70be8d57334fb4ed0c54e336158&url={url}&format=text"
     return str(requests.get(site_url).text)
