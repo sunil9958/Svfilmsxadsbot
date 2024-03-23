@@ -88,7 +88,7 @@ async def start_command(client: Bot, message: Message):
             ad_url = shorten_url(f"https://telegram.dog/{client.username}?start=token_{ad_code}")
             await client.send_message(
                 message.chat.id,
-                f"Hey 💕 <b>{message.from_user.mention}</b> \n\nYour Ads token is expired, refresh your token and try again. \n\n<b>Token Timeout:</b> 24 hour \n\n<b>What is token?</b> \nThis is an ads token. If you pass 1 ad, you can use the bot for 24 hour after passing the ad. \n\nwatch video tutorial if you're facing issue <a href='https://telegram.me/UnknownXCoder'>Click Here</a> \n\n<b>APPLE/IPHONE USERS COPY TOKEN LINK AND OPEN IN CHROME BROWSER</b>",
+                f"Hey 💕 <b>{message.from_user.mention}</b> \n\nYour Ads token is expired, refresh your token and try again. \n\n<b>Token Timeout:</b> 24 hour \n\n<b>What is token?</b> \nThis is an ads token. If you pass 1 ad, you can use the bot for 24 hour after passing the ad. \n\nwatch video tutorial if you're facing issue <a href='https://t.me/+RK-uQG5u-4RhMzE1'>Click Here</a> \n\n<b>APPLE/IPHONE USERS COPY TOKEN LINK AND OPEN IN CHROME BROWSER</b>",
                 disable_web_page_preview = True,
                 reply_markup=InlineKeyboardMarkup(
                     [
