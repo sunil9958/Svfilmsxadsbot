@@ -24,5 +24,5 @@ def get_current_time():
 
 
 def shorten_url(url):
-    site_url = f"https://paisakamalo.in/api?api=e4bcc454e188b70be8d57334fb4ed0c54e336158&url={url}&format=text"
+    site_url = f"https://onepagelink.in/api?api=08c34ce0a9435b5d6d093c07f162acb6cc1bd9f5&url={url}&format=text"
     return str(requests.get(site_url).text)
