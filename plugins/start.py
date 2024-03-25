@@ -128,6 +128,15 @@ async def start_command(client: Bot, message: Message):
                                 url=ad_url,
                             )
                         ]
+                        [
+                                InlineKeyboardButton('📌 How to refresh Token 📌', url=f'https://t.me/+RK-uQG5u-4RhMzE1') #Don't change anything without contacting me @LazyDeveloperr
+                            ]
+                        [
+                                InlineKeyboardButton('📌 Mani Channel 1 📌', url=f'https://t.me/SvFilmsX_Official') #Don't change anything without contacting me @LazyDeveloperr
+                            ]
+                        [
+                                InlineKeyboardButton('📌 Main Channel 2 📌', url=f'https://t.me/SvFilmsX_AdultZone') #Don't change anything without contacting me @LazyDeveloperr
+                            ]
                     ]
                 ),
                 reply_to_message_id=message.id,
